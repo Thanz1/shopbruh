@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: aquamarine;
+    width: 1200px;
+    margin: 0% auto;
+}
+div.logo{
+    float: left;
+    width: 200px;
+}
+div.logo img{
+    width: 300px;
+    height: 199px;
+    border: 1px solid wheat ;
+    border-bottom: 5px ;
+}
+div.loigioithieu {
+    float: right;
+    
+    text-indent: 20%;
+    color: #CC00CC;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+    height: 200px;
+    width: 900px;
+   
+    
+}
+div.loigioithieu>p{
+   
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
+nav>div.search>a.giohang>img{
+    width: 20px;
+    padding-top: 8px;
+  
+}
+nav{
+    clear: both;
+    background-color: chartreuse;
+    height: 45px;
+}
+nav>div.search{
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 1200px;
+    margin:0px auto;
+}
+nav>div.search>ul{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li {
+    float: left;
+    padding: 11px 15px;
+}
+nav ul li a{
+    color: blueviolet;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav>div.search>input.tim{
+    text-indent: 2%;
+}
+
+div.body{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #9933FF;
+    box-shadow: 0 5px 8px 0 rgba(pink, green, aqua, 0.2), 0 4px 20px 0 rgba(violet, yellow, blue, alpha);
+    
+}
+article{
+    display: table-row;
+}
+aside.left, aside.right, section{
+    display: table-cell;
+    vertical-align: top;
+}
+aside.left{
+    width: 150px;
+    background-color: #333399;
+}
+section{
+    width: 800px;
+    padding: 0 10px;
+}
+aside.right{
+width: 220px;
+background-color: #333399;
+}
+aside.left>div{
+    border: 1px solid #99CCFF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 160px;
+}
+aside.left>div>p{
+    background-color: #99CCFF;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+aside.left>div>ul{
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside.left>div>ul>li{
+    height: 25px;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+aside.left>div>ul>li a{
+    color: #660099;
+    text-decoration: none;
+}
+aside.left>div>ul>li a:hover{
+    color: #ff0000;
+}
+aside.right>div{
+    border: 1px solid #99CCFF;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+aside.right>div> p{
+    background-color: #99CCFF;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+aside.right>div p{
+clear: both;
+}
+aside.right>div img{
+    width: 40px;
+    height: 50px;
+    padding-left: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+aside.right>div a{
+    text-decoration: none;
+    font-size: 9pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    height: 70px;
+}
+aside.right>div a:hover{
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    background-color: #33FF00;
+    padding-top: 15px;
+}
+footer>p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}
+section img{
+    width: 150px;
+}
+section>div p.gia{
+    color: red;
+}
+section>div p.dau{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}

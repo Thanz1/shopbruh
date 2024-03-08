@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    text-align: center;
+    background-color: chartreuse;
+    width: 200px;
+    margin-left: 550px;
+    
+}
+div{
+    margin-top: 10px;
+    margin-left: 550px;
+    border: 1px solid black;
+    width: 280px;
+    background-color: #CCCCCC;
+}
+div>input.a{
+    margin-top: 2px;
+    margin-left: 80px;
+}
